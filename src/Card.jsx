@@ -6,6 +6,7 @@ export default function Card(props) {
   } else if (props.card.location === "Online") {
     badgeText = "Online";
   }
+
   return (
     <>
       <div className="card">
