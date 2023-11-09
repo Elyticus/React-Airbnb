@@ -1,4 +1,3 @@
-import "./App.css";
 import Hero from "./Hero.jsx";
 import Card from "./Card.jsx";
 import Navbar from "./Navbar.jsx";
@@ -7,7 +6,7 @@ import data from "./data.js";
 
 function App() {
   const cards = data.map((card) => {
-    return <Card key={card.id} {...card} />;
+    return <Card key={card.id} card={card} />;
   });
   return (
     <>
