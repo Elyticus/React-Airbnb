@@ -13,7 +13,7 @@ export default function Card(props) {
         <img
           className="card-image"
           src={props.card.coverImg}
-          alt="Profile image with Katie Zaferes in the swimming pool"
+          alt="Profile image"
         />
 
         <div className="rating">
